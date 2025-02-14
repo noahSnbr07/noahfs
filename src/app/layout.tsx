@@ -13,10 +13,10 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html className="flex justify-center" translate="no" lang="en">
-      <body className="max-w-screen-xl w-full">
+    <html className="flex justify-center h-dvh" translate="no" lang="en">
+      <body className="max-w-screen-xl flex-col flex w-full">
         <Header />
-        <main> {children} </main>
+        <main className="flex-1"> {children} </main>
       </body>
     </html>
   );

@@ -4,7 +4,6 @@ import links from '@/constants/links';
 
 export default function HeaderLinks() {
 
-
     return (
         <div className='flex gap-4'>
             {links.map(link => (
